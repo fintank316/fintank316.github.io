@@ -1,0 +1,82 @@
+<!DOCTYPE html> <!-- Tells the browser this is an HTML5 document -->
+<html lang="en"> <!-- Sets the language of the page to English -->
+<head>
+  <meta charset="UTF-8"> <!-- Makes sure special characters (like accents) display properly -->
+  <title>Fintan Kirwan - CV</title> <!-- Shows this title in the browser tab -->
+  <link rel="stylesheet" href="styles.css"> <!-- Connects to an external CSS file for styling -->
+</head>
+<body>
+  <!-- Main container that holds everything on the page and uses Flexbox to stack sections vertically -->
+  <div class="cv-container">
+    
+    <!-- Header section that shows name and email -->
+    <header class="cv-header">
+      <h1>Fintan Kirwan</h1> <!-- name in large text -->
+      <h3>Email: x24114618@student.ncirl.ie</h3> <!-- email in smaller text -->
+    </header>
+
+    <!-- Section that lists education history -->
+    <section class="cv-section">
+      <h2>Education</h2> <!-- Title for the education section -->
+      <ul> <!-- Unordered list of qualifications -->
+        <li>2024 – 2025: Certificate in Science in Computing, National College of Ireland. NFQ 8</li> <!-- First qualification -->
+        <li>2024 – 2024: Project Management, The Open College. NFQ 6</li> <!-- Second qualification -->
+        <li>2001 – 2003: Diploma in Computer Programming, Dun Laoghaire Institute of Further Education</li> <!-- Third qualification -->
+      </ul>
+    </section>
+
+    <!-- Section that lists work experience -->
+    <section class="cv-section">
+      <h2>Experience</h2> <!-- Title for the experience section -->
+      <div class="experience-container"> <!-- Container that holds all job entries -->
+        
+        <!-- First job entry -->
+        <div class="job">
+          <h4>April 2019 – Present</h4> <!-- Job dates -->
+          <p>
+            <strong>Wexford County Council</strong><br> <!-- Company name -->
+            <em>Position: I.S. Project Leader</em><br> <!-- Job title -->
+            Duties: Responsible for IT Technical Services (Infrastructure, Security, Helpdesk). Leadership, escalation management, and service team oversight. <!-- Job responsibilities -->
+          </p>
+        </div>
+
+        <!-- Second job entry -->
+        <div class="job">
+          <h4>Nov 2016 – Apr 2019</h4> <!-- Job dates -->
+          <p>
+            <strong>St. Michael’s Hospital</strong><br> <!-- Company name -->
+            <em>Position: IT Manager</em><br> <!-- Job title -->
+            Duties: Managed hospital-wide IT operations. Led teams, handled escalations, and oversaw networks, security, server upgrades, and installations. <!-- Job responsibilities -->
+          </p>
+        </div>
+
+        <!-- Third job entry -->
+        <div class="job">
+          <h4>Apr 2013 – Nov 2016</h4> <!-- Job dates -->
+          <p>
+            <strong>Laztech IT Services</strong><br> <!-- Company name -->
+            <em>Position: Client Services Manager</em><br> <!-- Job title -->
+            Duties: Led 8 engineers. Managed daily operations, escalations, and ISO 27001:2013 network documentation. <!-- Job responsibilities -->
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Section that lists skills -->
+    <section class="cv-section">
+      <h2>Skills</h2> <!-- Title for the skills section -->
+      <div class="skills-container"> <!-- Container that holds all skill items -->
+        <div class="skill">IT Infrastructure & Security Management</div> <!-- Skill item -->
+        <div class="skill">Team Leadership & Escalation Handling</div> <!-- Skill item -->
+        <div class="skill">Helpdesk & Technical Support Oversight</div> <!-- Skill item -->
+        <div class="skill">Project Management & Strategic Planning</div> <!-- Skill item -->
+        <div class="skill">Network Configuration & ISO 27001 Compliance</div> <!-- Skill item -->
+        <div class="skill">Server Upgrades, Installations & Monitoring</div> <!-- Skill item -->
+        <div class="skill">Client Relations & Pre-Sales Engagement</div> <!-- Skill item -->
+      </div>
+    </section>
+
+  </div> <!-- End of main container -->
+</body>
+</html>
