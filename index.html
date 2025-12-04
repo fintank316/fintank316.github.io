@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Set character encoding -->
+  <meta charset="UTF-8">
+
+  <!-- Make the website responsive on phones -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Page title shown in browser tab -->
+  <title>FK IT Solutions | Fast Local IT Support Wexford</title>
+
+  <!-- Short description for Google search results -->
+  <meta name="description" content="FK IT Solutions delivers fast, honest, local IT support in Wexford: managed IT, cybersecurity, Microsoft 365, and custom software. Same-day response, no long contracts.">
+
+  <!-- Website icon in browser tab -->
+  <link rel="icon" href="images/logo.png">
+
+  <!-- Bootstrap CSS (layout + components) -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Font Awesome icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- Your custom CSS -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<!-- Navigation bar at the top of the page -->
+<nav class="navbar navbar-expand-lg fixed-top" style="height:116px; background:white; box-shadow:0 2px 10px rgba(0,0,0,0.1);">
+  <div class="container-fluid px-4 px-lg-5">
+
+    <!-- Logo + small tagline -->
+    <a class="navbar-brand d-flex align-items-center gap-3" href="index.html">
+      <img src="images/logo.png" alt="FK IT Solutions" style="height:92px;">
+      <span style="font-weight:600; font-size:1.05rem; color:#1a3c6b; opacity:0.95;" class="d-none d-lg-block">
+        We do more than reboots!
+      </span>
+    </a>
+
+    <!-- Mobile menu button -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <i class="fas fa-bars" style="font-size:1.9rem; color:#1a3c6b;"></i>
+    </button>
+
+    <!-- Menu links -->
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section (big header area) -->
+<section class="hero">
+  <div class="container">
+
+    <!-- Main headline -->
+    <h1>Fast Local IT Support<br><span style="color:var(--blue)">Wexford Businesses Trust</span></h1>
+
+    <!-- Small stats message -->
+    <p class="lead">68+ local companies • 99.98% uptime • Same-day on-site response</p>
+
+    <!-- Call-to-action buttons -->
+    <a href="contact.html" class="btn btn-primary">Get Free IT Health Check (€350 value)</a>
+    <a href="tel:+353539145678" class="btn btn-light">Call 053 914 5678</a>
+
+    <!-- Quick stats grid -->
+    <div class="grid grid-4 text-center mt-4">
+      <div><strong>60-Second</strong><br>Answer Time</div>
+      <div><strong>2 Hours</strong><br>On-Site in Wexford</div>
+      <div><strong>41</strong><br>Attacks Stopped</div>
+      <div><strong>No Contracts</strong><br>Cancel Anytime</div>
+    </div>
+
+    <!-- Testimonials that rotate (handled by JS) -->
+    <div class="testimonial-carousel mt-5">
+      <div class="testimonial active"><p>“FK IT Solutions saved our hotel during a ransomware attack — back online in 4 hours on a Sunday.”</p><p>— Sarah Murphy, Harbour View Hotel</p></div>
+      <div class="testimonial"><p>“Switched from Dublin provider. Same service, half the price, answers in 10 seconds.”</p><p>— John Doyle, Seamus Byrne & Sons</p></div>
+      <div class="testimonial"><p>“Migrated 28 PCs to cloud with zero downtime. Best decision we ever made.”</p><p>— Dr. Lisa O’Connor, Enniscorthy Medical Centre</p></div>
+      <div class="testimonial"><p>“They blocked a €60,000 ransom demand last year. FK IT are part of our team now.”</p><p>— Mark Cullen, Wexford Credit Union</p></div>
+    </div>
+
+    <!-- Dots under testimonials (carousel indicators) -->
+    <div class="text-center mt-3">
+      <span class="dot active"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span>
+    </div>
+
+    <!-- Why Choose Us section -->
+    <div class="container max-1024 mt-5">
+      <h3 class="text-center mb-4" style="font-size:1.8rem; color:var(--navy);">Why Wexford Businesses Choose Us</h3>
+
+      <div class="grid grid-3 text-center">
+
+        <!-- Benefit card -->
+        <div class="card" style="padding:1.6rem;">
+          <i class="fas fa-clock fa-2x mb-3" style="color:var(--blue);"></i>
+          <h4 style="font-size:1.2rem;">2-Hour On-Site Guarantee</h4>
+          <p style="font-size:0.98rem;">We’re never more than a short drive away when you really need us.</p>
+        </div>
+
+        <!-- Benefit card -->
+        <div class="card" style="padding:1.6rem;">
+          <i class="fas fa-euro-sign fa-2x mb-3" style="color:var(--blue);"></i>
+          <h4 style="font-size:1.2rem;">Local Prices, Enterprise Tools</h4>
+          <p style="font-size:0.98rem;">Same Microsoft & Veeam tech the big firms use — at honest Wexford rates.</p>
+        </div>
+
+        <!-- Benefit card -->
+        <div class="card" style="padding:1.6rem;">
+          <i class="fas fa-handshake fa-2x mb-3" style="color:var(--blue);"></i>
+          <h4 style="font-size:1.2rem;">No Call Centres, Ever</h4>
+          <p style="font-size:0.98rem;">You ring → a real local engineer answers in under 60 seconds.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- Bar showing certifications and partner statuses -->
+<section class="trust-bar" style="background:var(--navy); color:white; padding:1.4rem 0; font-size:1.05rem;">
+  <div class="container">
+    <div class="grid grid-4 text-center">
+      <div><i class="fas fa-shield-alt" style="color:var(--blue); font-size:1.8rem; margin-bottom:0.4rem;"></i><br>ISO 27001 Certified</div>
+      <div><i class="fas fa-microsoft" style="color:var(--blue); font-size:1.8rem; margin-bottom:0.4rem;"></i><br>Microsoft Solutions Partner</div>
+      <div><i class="fab fa-vimeo" style="color:var(--blue); font-size:1.8rem; margin-bottom:0.4rem;"></i><br>Veeam Gold ProPartner</div>
+      <div><i class="fas fa-users" style="color:var(--blue); font-size:1.8rem; margin-bottom:0.4rem;"></i><br>100 % Wexford Team</div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer section -->
+<footer class="bg-navy text-white text-center py-5">
+  © 2025 FK IT Solutions • 47 South Main Street, Wexford • +353 53 914 5678
+</footer>
+
+<!-- jQuery (used by scripts below) -->
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+<!-- Bootstrap JS (for menu, components, etc.) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Your own JavaScript -->
+<script src="js/script.js"></script>
+
+<script>
+  // Highlight the current page in the navigation menu
+  document.querySelectorAll('.nav-link').forEach(link => {
+    if (link.href === location.href) link.classList.add('active');
+  });
+</script>
+
+</body>
+</html>
